@@ -1,0 +1,120 @@
+{
+    "version": "1.0",
+    "chainId": "5",
+    "createdAt": 1675293155350,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.11.1",
+        "createdFromSafeAddress": "0x2239f90FC37236366e5Bb4231Fe5dFf3D20E85aD",
+        "createdFromOwnerAddress": "",
+        "checksum": "0xe022afc40fcb086022dcd24c85ce3767b5d27293648a4b484ef559ecbe2ad6dd"
+    },
+    "transactions": [
+        {
+            "to": "0x13Be874b23E2ABED45C436FD5e3fedf3D8e41d89",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "spender",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "approve",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "spender": "0xEfF92A263d31888d860bD50809A8D171709b7b1c",
+                "amount": "999999999999999999999999999999999"
+            }
+        },
+        {
+            "to": "0xEfF92A263d31888d860bD50809A8D171709b7b1c",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "amountIn",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amountOutMin",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address[]",
+                        "name": "path",
+                        "type": "address[]"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "deadline",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "swapExactTokensForETH",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "amountIn": "1000000000000000000",
+                "amountOutMin": "680105227993138",
+                "path": "[0x13Be874b23E2ABED45C436FD5e3fedf3D8e41d89,0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6]",
+                "to": "0x94Ccded7bf952BCdf8AB81615b4139CF3FF0dbF4",
+                "deadline": "9999999999"
+            }
+        },
+        {
+            "to": "0xEfF92A263d31888d860bD50809A8D171709b7b1c",
+            "value": "1000000000000000",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "amountOutMin",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "address[]",
+                        "name": "path",
+                        "type": "address[]"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "deadline",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "swapExactETHForTokens",
+                "payable": true
+            },
+            "contractInputsValues": {
+                "amountOutMin": "646033948912596757",
+                "path": "[0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6,0x13Be874b23E2ABED45C436FD5e3fedf3D8e41d89]",
+                "to": "0x94Ccded7bf952BCdf8AB81615b4139CF3FF0dbF4",
+                "deadline": "9999999999"
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "chainId": "137",
+    "createdAt": 1672251650299,
+    "meta": {
+        "name": "tst",
+        "description": "",
+        "txBuilderVersion": "1.11.1",
+        "createdFromSafeAddress": "0x1422204B66925F50a39689080a16dB4Aa7cD3A5F",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x9f8345789be58445cae64bb29ea438e2480d6af122c015bc6b472a425289f2f4"
+    },
+    "transactions": [
+        {
+            "to": "0x1248fa425de2347171735f329Ff007187b366a7e",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "to",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "transfer",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "to": "0x0C0360F87F3968Ec5cB73cfAAA0933300B03Bf7E",
+                "amount": "1000000000000000000"
+            }
+        }
+    ]
+}
