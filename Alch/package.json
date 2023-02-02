@@ -1,0 +1,9 @@
+{
+  "name": "Alch",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "alchemy-sdk": "^2.4.0",
+    "dotenv": "^16.0.3",
+    "web3": "^1.8.1"
+  }
+}
